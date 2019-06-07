@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to our twitter game"
+        android:textSize="22dp"
+        android:gravity="center"
+        android:textColor="@color/tw__blue_default"
+        />
+    <ImageView
+        android:id="@+id/profileImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/btn_default" />
+
+    <TextView
+        android:id="@+id/usernameTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No Active username"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textColor="@color/tw__blue_default"
+
+        />
+
+    <TextView
+        android:id="@+id/infoTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:gravity="center"
+        android:textColor="@color/tw__blue_default"
+        android:textSize="18dp"/>
+
+    <Button
+        android:id="@+id/followersButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get followers" />
+
+    <ListView
+        android:id="@+id/folloersLV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/tw__blue_pressed"/>
+
+
+</LinearLayout>
